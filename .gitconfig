@@ -1,0 +1,16 @@
+[user]
+	name = Bhaarat Sharma
+	email = bhaarat.s@gmail.com
+[diff]
+[color]
+    ui = auto
+[alias]
+    c = commit -m
+    a = add
+    aa= !git add -u && git add . && git status
+    cob = checkout -b
+    up = !git fetch origin && git rebase origin/master
+    ir = !git rebase -i origin/master
+    pom = push origin master
+[merge]
+    tool = vimdiff
