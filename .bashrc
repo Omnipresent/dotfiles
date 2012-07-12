@@ -2,7 +2,8 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 # add gradle to the path
-PATH="$PATH:/home/bhaarat/gradle/gradle-1.0-milestone-6/bin"
+PATH="$PATH:/home/bhaarat/gradle/gradle-1.0-milestone-6/bin:/home/bhaarat/Downloads/vert.x/vert.x-1.0.1.final/bin"
+export JRUBY_HOME="/usr/lib/jruby"
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 

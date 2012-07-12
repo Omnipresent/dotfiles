@@ -1,4 +1,5 @@
-" This is Bhaarat Sharma's .vimrc file inspired by many other people (thanks)
+" This is @bhaaratcrckt 's .vimrc file inspired by many other people, mainly
+" @garybernhardt (thanks)
 
 call pathogen#runtime_append_all_bundles()
 
@@ -86,7 +87,7 @@ colorscheme railscasts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " easy external commands for compiling and running java
-map <F5> :w<CR><bar>:!sh -xc 'javac %'<CR>
+map <F5> :w<CR><bar>:!sh -xc 'javac -d classes %'<CR>
 map <F6> :w<CR><bar>:!sh -xc 'javac % && java %:r'<CR>
 
 "NERDTree Stuff
